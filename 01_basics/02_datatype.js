@@ -8,7 +8,7 @@ undefined = the value does not defined to variable
 symbol 
 boolean = represents the true or false value
 */
-let name = "Satish"
+let name = "rajaram"
 let age = 20
 let contactNo = BigInt(1234567890)
 let job = true
