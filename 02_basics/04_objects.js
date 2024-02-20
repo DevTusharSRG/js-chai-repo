@@ -40,3 +40,14 @@ console.log(obj3);
 console.log(Object.keys(instaUser));
 console.log(Object.values(instaUser));
 console.log(Object.entries(instaUser));
+
+const course = {
+    name : "js",
+    time : "1 Month",
+    pay : "1000"
+}
+
+console.log(course.name);
+
+const {name}=course
+console.log(name);
