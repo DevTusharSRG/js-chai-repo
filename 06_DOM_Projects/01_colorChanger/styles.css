@@ -1,0 +1,43 @@
+.nav{
+    text-align: center;
+    justify-content: center;
+}
+.navButton{
+    text-align: center;
+    font-size: x-large;background-color: aquamarine;padding: 10px;border-radius: 20px;border: 2px solid wheat;
+}
+.main{
+    text-align: center;
+    justify-content: center;
+}
+.head{
+    font-weight: bolder;
+    text-align: center;
+}
+.btn{
+    margin-left: 5px;
+    display: inline-block;
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    margin: 10px; /* Adjust margin as needed */
+    padding: 10px;
+    border: 2px solid wheat;
+}
+#grey {
+    background-color: grey;
+    }
+
+    #blue {
+    background-color: blue;
+    }
+
+    #red {
+    background-color: red;
+    }
+
+    #green {
+    background-color: green;
+    }
+    .para{
+        font-size: x-large;
+    }
