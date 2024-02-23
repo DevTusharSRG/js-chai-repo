@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: black; color: aliceblue;">
+    <h1 class="heading" id ="head">Hello I'm Tushar Welcome to code with chai</h1>
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <h2 class="head2">Lorem ipsum dolor sit,</h2>
+    <h2 class="head2">Lorem ipsum dolor sit,</h2>
+    <h2 class="head2">Lorem ipsum dolor sit,</h2>
+    <h2 class="head2">Lorem ipsum dolor sit,</h2>
+
+    <ul>
+        <li class="lielement">one</li>
+        <li class="lielement">two</li>
+        <li class="lielement">three</li>
+        <li class="lielement">four</li>
+    </ul>
+</body>
+
+<script>
+const head = document.querySelector('.heading')
+const clas = document.getElementById('head')
+// console.log(clas);
+head.style.backgroundColor="red"
+// document.getElementById('head').setAttribute('class','test')
+const one = head.innerHTML
+const two = head.textContent
+console.log(one);
+console.log(two);
+head.innerHTML = "hello this is new heading"
+clas.style.padding='15px'
+clas.style.borderRadius="20px"
+// const h2 = document.querySelector('.head2')
+// h2.style.backgroundColor = "green"
+const h22 = document.querySelectorAll('h2')
+h22[1].style.color ='grey'
+h22.forEach(function (h2) {
+    h2.style.backgroundColor='green'
+})
+
+const liele = document.querySelectorAll('.lielement')
+const myarr=Array.from(liele)
+myarr.forEach((num)=>{
+    num.style.color='orange'
+})
+</script>
+</html>
