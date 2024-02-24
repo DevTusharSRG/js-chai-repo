@@ -1,0 +1,44 @@
+.nav{
+    text-align: center;
+    justify-content: center;
+}
+.navButton{
+    text-align: center;
+    font-size: x-large;background-color: aquamarine;padding: 10px;border-radius: 20px;border: 2px solid wheat;
+}
+.submit{
+    text-align: center;
+    font-size: x-large;background-color: aquamarine;padding: 10px;border-radius: 20px;border: 2px solid wheat;
+}
+.head{
+    font-weight: bolder;
+    text-align: center;
+}
+.project{
+    text-align: center;
+    justify-content: center;
+}
+.inputdiv{
+    text-align: center;
+    justify-content: center;
+}
+label{
+    font-size: x-large;
+}
+input{
+    height: 30px;
+    width: auto;
+    background-color: papayawhip;
+}
+.inputdiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.inner-div{
+    margin-top: 20px;
+}
+.doc{
+    margin-left: 30%;
+}
