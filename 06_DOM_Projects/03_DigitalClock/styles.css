@@ -1,0 +1,27 @@
+.nav{
+    text-align: center;
+    justify-content: center;
+}
+.navButton{
+    text-align: center;
+    font-size: x-large;background-color: aquamarine;padding: 10px;border-radius: 20px;border: 2px solid wheat;
+}
+.head{
+    font-weight: bolder;
+    text-align: center;
+}
+.Clock-head{
+    text-align: center;
+    justify-content: center;
+}
+.clock{
+    font-size: 30px;
+    background-color: orange;
+    padding: 15px;
+    width: fit-content;
+    margin-top: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
