@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in js</title>
+</head>
+<body style="background-color: #212121; color: aliceblue;">
+    <h2>Event Handling with SRG</h2>
+    <ul class="unordered">
+        <li class="list"><img id="blue" src="https://www.kasandbox.org/programming-images/avatars/spunky-sam.png" alt="" srcset=""></li>
+        <li class="list"><img id="purple" src="https://www.kasandbox.org/programming-images/avatars/duskpin-sapling.png" alt=""></li>
+        <li class="list"><img id="dog" src="https://www.kasandbox.org/programming-images/avatars/duskpin-tree.png" alt=""></li>
+        <li class="list"><img id="brown" src="https://www.kasandbox.org/programming-images/avatars/purple-pi-pink.png" alt=""></li>
+        <li class="list"><a id="google" style="color: white;" href="http://google.com">Google</a></li>
+    </ul>
+</body>
+<script>
+    //different types to handel the functions
+    // document.getElementById('purple').onclick = ()=>{
+    //     alert("hello purple")
+    // }
+
+    // document.getElementById('blue').addEventListener('click', function () {
+    //     alert('hellow blue')
+    // },false)
+
+    // document.getElementById('dog').addEventListener('click', (e)=>{
+    //     console.log(e);
+    //     e.preventDefault()          //it is used to preventing the default events of any function
+    // },false)                        //true or false the third parameter is used for bubblin method event propogation
+
+    //for Study all the info about these on mdn doc
+    //type, preventDefault, timeStamp
+    //target, toElement, srcElement, currentTarget
+    //clientx, clienty, screenx, screeny
+    //altKey, ctrKey , shiftKey, keyCode
+
+    //event propogation
+    // document.getElementById('blue').addEventListener('click', function (e) {
+    //     console.log("hello blue");
+    //     e.stopPropagation();
+    // },false)
+    // document.querySelector('.unordered').addEventListener('click', function (e) {
+    //     console.log('inside list');
+       
+    // },false)
+
+    // document.getElementById('google').addEventListener('click',(e)=>{
+    //     e.preventDefault();
+    // })
+
+    document.querySelector('.unordered').addEventListener('click',(e)=>{
+        console.log(e.target.tagName);
+        if(e.target.tagName === 'IMG'){
+            let removeIt = e.target.parentNode
+            removeIt.remove();
+            // removeIt.parentNode.removeChild(removeIt);       //this is another method to remove
+        }
+    },false)
+</script>
+</html>
