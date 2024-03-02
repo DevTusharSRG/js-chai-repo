@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: #212121; color:aliceblue">
+    <nav class="nav">
+        <a href="#"><Button class="navButton">Home</Button></a>
+        <a href="#"><Button class="navButton">GitHub</Button></a>
+        <hr style="background-color: red; color: red;">
+    </nav>
+    <div class="head">
+        <h1 class="heading">Code With Chai</h1>
+        <p>Try and Guess The Random Number between 1 to 100</p>
+        <p>You Have 10 attempts to guess the right number</p>
+        <br>
+    
+            <form class="form">
+                <label for="number">Guess The Number</label>
+                <input type="text" id="GuessField" class="GuessField">
+                <input type="submit" id="submit" class="submit" value="Submit Guess">
+            </form>
+        <div class="resultPara">
+            <p>Previous Guess : <span class="Guesses"></span></p>
+            <p>Guesses Remaining : <span class="lastResult">10</span></p>
+            <p class="lowOrHigh"></p>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

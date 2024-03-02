@@ -1,0 +1,37 @@
+.nav{
+    text-align: center;
+    justify-content: center;
+}
+.navButton{
+    text-align: center;
+    font-size: x-large;background-color: aquamarine;padding: 10px;border-radius: 20px;border: 2px solid wheat;
+}
+.head{
+    font-weight: bolder;
+    text-align: center;
+}
+.submit{
+    background-color: black;
+    color: white;
+    width:auto;
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid wheat;
+    font-size: large;
+}
+form{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+input{
+    margin-top: 20px;
+    height: 30px;
+    background-color: #f0f0f0;
+}
+label{
+    font-size: x-large;
+}
+.resultPara{
+    margin-top: 20%;
+}
